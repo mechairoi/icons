@@ -8,6 +8,9 @@ devDependencies:
   '@builder.io/qwik':
     specifier: ^1.2.14
     version: 1.2.14(undici@5.20.0)
+  '@phosphor-icons/core':
+    specifier: ^2.0.3
+    version: 2.0.3
   '@primer/octicons':
     specifier: ^19.8.0
     version: 19.8.0
@@ -444,6 +447,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+    dev: true
+
+  /@phosphor-icons/core@2.0.3:
+    resolution: {integrity: sha512-q1H9mm01F531uazkpXkne0dugyJvElZ51ne4lKmJ3tK6cttnROpjoVjo6VTr6dLSpXkAbNxQVG/DJlTEvLHmpw==}
     dev: true
 
   /@primer/octicons@19.8.0:

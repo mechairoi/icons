@@ -74,6 +74,11 @@
       "require": "./lib/mo.qwik.cjs",
       "types": "./lib/icons/mo/mo.d.ts"
     },
+    "./phosphor": {
+      "import": "./lib/ph.qwik.mjs",
+      "require": "./lib/ph.qwik.cjs",
+      "types": "./lib/icons/ph/ph.d.ts"
+    },
     "./simpleicons": {
       "import": "./lib/si.qwik.mjs",
       "require": "./lib/si.qwik.cjs",
@@ -120,6 +125,9 @@
       "monoicons": [
         "./lib/icons/mo/mo.d.ts"
       ],
+      "phosphor": [
+        "./lib/icons/ph/ph.d.ts"
+      ],
       "simpleicons": [
         "./lib/icons/si/si.d.ts"
       ],
@@ -161,6 +169,7 @@
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.2.14",
+    "@phosphor-icons/core": "^2.0.3",
     "@primer/octicons": "^19.8.0",
     "@types/eslint": "8.21.1",
     "@types/node": "^18.14.0",

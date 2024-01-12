@@ -10,5 +10,6 @@ export * from "./lucide";
 export * from "./material";
 export * from "./monoicons";
 export * from "./octicons";
+export * from "./phosphor";
 export * from "./simpleicons";
 export * from "./tabler";
